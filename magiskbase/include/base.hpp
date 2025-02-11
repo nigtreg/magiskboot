@@ -26,3 +26,4 @@
 #define PLOGE(fmt, args...) LOGE(fmt " failed with %d: %s\n", ##args, errno, std::strerror(errno))
 #define LOGW(fmt, args...) LOG("Warning: " fmt, ##args)
 #define LOGD(fmt, args...) LOG("Debug: " fmt, ##args)
+
